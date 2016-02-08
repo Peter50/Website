@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<script type="text/javascript" src="javascript/pel.js"></script>
+		<script type="text/javascript" src="javascript/index.js"></script>
+		<title>Pierre-Erik Lay</title>
+	</head>
+	<body>
+		<div id="head">
+			<header><h1>Pierre-Erik LAY</h1> <h2>Site web personnel</h2><nav><input type="button" value="Acceuil" onclick="effacerTout();visible('accueil');"> - <input type="button" value="CV" onclick="effacerTout();visible('cv')"> - <input type="button" value="Portefolio" onclick="effacerTout();visible('portefolio')"> - <input type="button" value="Blog" onclick="effacerTout();visible('blog')"> - <input type="button" value="Contact" onclick="effacerTout();visible('contact')"></nav>
+			</header>
+		</div>
+		<main id="main">
+		<section id="accueil">
+			<h2>Accueil</h2>
+			<article><h2>Message de bienvenue:</h2>Bienvenue sur mon site web</article>
+		</section>
+			<section id="cv">
+				<h2>CV</h2>
+				<article>
+					<h3>Formation</h3>
+					<h4>Diplômes</h4>
+					<ul>
+						<li><div class="date">2014 - Maintenant</div>1er année à l'école nationnal supérieur d'ingénieur de Caen en informatique - Caen, Calvados (14)</li>
+						<li><div class="date">2013 - 2014</div>1er année à l'école nationnal supérieur d'ingénieur de Caen en informatique - Caen, Calvados (14)</li>
+						<li><div class="date">2011 - 2013</div>Diplome universitare de technologie en Génie électrique et informatique industrielle (DUT GEII) - IUT Cherbourg Manche (50)</li>
+						<li><div class="date">Juin 2011</div>Baccalauréat STI spécialité Génie électronique option européenne mention assez bien - Lycée Alexis de Tocqueville - Cherbourg-Octeville, Manche (50) </li>
+					</ul>
+					<h4>Compétences linguistiques</h4>
+					<ul>
+						<li>Anglais : 890 points sur 990 au TOEIC</li>
+						<li>Japonais : Notions</li>
+						<li>Allemand : Notions</li>
+					</ul>
+					<h4>Compétences complémentaires</h4>
+					<ul>
+						<li>PSC1 : Prévention et secours civique de niveau 1</li>
+						<li>Habilitation Electrique BV1</li>
+					</ul>
+				</article>
+				<article>
+					<h3>Expérience Professionnel</h3>
+					<ul>
+						<li><div class="date">Juillet 2013</div>Vacataire pour la Direction Régionale des Affaires Maritimes, chargé de la mise en place et de la modification de la base de donnée de gestion du personnel Gréement</li>
+						<li><div class="date">Avril - Juin 2013</div>Stage de fin d'étude de 10 semaines au Centre régional Opérationnel de Sécurité et de Sauvetage en mer de Jobourg. Amélioration de la base de donnée de gestion du personnel Gréement</li>
+					</ul>
+				</article>
+				<article>
+					<h3>Loisirs</h3>
+					<ul>
+						<li>Le monde du jeux-vidéo</li>
+						<li>La Science-Fiction</li>
+					</ul>
+				</article>
+			</section>
+			<section id="portefolio">
+				<h2>Portefolio</h2>
+				<article><h3>Projet Hamla</h3><a href="https://github.com/Peter50/Halma"> Lien vers Github</a></article>
+			</section>
+			<section id="blog">
+				<h2>Mon blog</h2>
+				<article><h2>Enjoliver</h2><button type="button" onclick="enjoliver()">Enjoliver</button></article>
+				<article class="ablog">
+					<h3>Le monde du jeux vidéo</h3>
+					<ul>
+						<li><a href="https://www.humblebundle.com/">Humble Bundle</a>: Site de vente de jeux vidéo dématérialiseé qui propose réguliérement des pack de jeux a des prix intéressant</li>
+						<li><a href="http://www.indiemag.fr/">Indie Mag</a>: Site dédié au jeux-vidéo indépendant</li>
+						<li><a href="http://store.steampowered.com/">Steam</a>: Plateforme de téléchargement incontournable dans le dommaine du jeux PC</li>
+						<li><a href=""></a> </li>
+					</ul>
+				</article>
+				<article class="ablog">
+					<h3>Culture Général</h3>
+					<ul>
+						<li><a href="http://www.ted.com/">TED</a>: Site anglophone de présentation diverses et variées</li>
+						<li><a href="http://www.senscritique.com/Pierre-erik_Lay">SensCritique</a>:Lien vers mon compte SensCritique ou je note certais films, série et autres jeux-vidéo</li>
+					</ul>
+				</article>
+			</section>
+			<section id="contact">
+				<h2>Contact</h2>
+				<form action="javascript/gerer_form.sh" method="post">
+					Quelle est votre nom ?<br/>
+					<input type="text" value="" name="nom"><br/>
+					Quelle est votre couriel ?<br/>
+					<input type="text" value="" name="couriel"><br/>
+					Quelle est votre numéro de téléphone pour vous joindre ?<br/>
+					<input type="text" value="" name="tel"><br/>
+					Quelle est votre site web personnel si vous en avez un ?<br/>
+					<input type="text" value="" name="site"><br/>
+					Quelle messages souhaitez vous me laisser ?<br/>
+					<input type="text" value="" name="message"><br/>
+					<input type="submit" value="Envoyer">
+				</form>
+			</section>
+		</main>
+		<footer>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+		    <img style="border:0;width:88px;height:31px"
+		        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+		        alt="Valid CSS!" /></a> - <a href="https://twitter.com/Peter50120">Twitter</a> - <a href="https://www.facebook.com/Peter50120">Facebook</a> - <a href="https://plus.google.com/u/0/111008865959194225794/posts">Google+</a> - <a href="mailto:pierre-erik.lay@orange.fr">Couriel Personnel</a> - <a href="mailto:peter50.lay@gmail.com">Couriel</a> - © Copyright 2015 - Pierre-Erik LAY</footer>
+
+	</body>
+</html>

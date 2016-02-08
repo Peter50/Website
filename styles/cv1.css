@@ -1,0 +1,9 @@
+body{font-family:verdana;background-color:LightSteelBlue}
+header{color: RoyalBlue; text-align: center}
+ul{list-style-type: none}
+h2{margin-left:5%}
+h3{margin-left:10%}
+section{background-color:LightSteelBlue;border:2px Gray;}
+section ul{margin-left:15%}
+footer{background-color: LightSteelBlue; color: RoyalBlue; text-align: center}
+.avatar{width:10%;float: right}

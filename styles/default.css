@@ -1,0 +1,30 @@
+body{font-family:verdana;background-color:#8089B6;margin:0;color:#45528D;z-index:9}
+
+header{color: #C6CBE1; text-align: center;display: inline;}
+header h1{display: inline;}
+header h2{display: inline;}
+header nav{display: inline; float: right;margin-top: 7px;} 
+
+ul{list-style-type: none}
+
+section{background-color:#8089B6;border:2px;text-align:center;}
+
+footer{text-align: center}
+
+.avatar{width:10%;float: right}
+
+#blog{visibility: hidden; display: none;}
+#cv{visibility: hidden; display: none;}
+#contact{visibility: hidden; display: none;}
+#portefolio{visibility:hidden; display:none;}
+#head{background-color:#45528D;}
+
+a {
+	text-decoration: none;
+	color: #45528D;
+	transition: ease-in-out .4s;
+}
+
+a:hover {
+	color: green;
+}
